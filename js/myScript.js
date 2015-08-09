@@ -52,6 +52,49 @@ schedule (week[6]);
 /* is for multiple line comments */ 
 //alert is used as pop-up. the output can be seen once the alert() function is called
 
+// Datatype - number, string, boolean, undefined (no value)
+
+
+// testing - a test returns a true or false (a boolean)
+
+//The if statement
+//The if statement allows us to run code only if a certain test
+//evaluates to true
+
+if (1===2){
+	console.log("this is false");
+}
+
+if (1=="1"){
+	console.log("this is true because data type is not tested");
+
+}
+
+function someName (name){
+	console.log ("my name is" +" "+ name);
+}
+
+someName ("joyce");
+
+var colors =['red', 'black', 'white'];
+
+function redcolortest (primaryColor) {
+	if(primaryColor=colors[0]){
+		console.log("true");
+	} else if (primaryColor=colors[1]) {
+		cosole.log("false");
+	} else if (primaryColor=color[2]){
+		cosole.log("false");
+	} else{
+		console.log("false");
+	}
+}
+
+redcolortest ('red');
+redcolortest (colors[2]); // i don't know why this is true, it should be false
+redcolortest (colors[1]);  //i don't know why this is true, it should be false
+
+
 
 
 
